@@ -88,8 +88,12 @@ nav ul li a:hover::after {
     font-size: 30px;
 }
 
-.header-text h1 {
-    font-size: 60px;
+.header-text>p {
+    font-size: 25px;
+}
+
+.header-text h2 {
+    font-size: 40px;
     margin-top: 20px;
 }
 
@@ -360,6 +364,11 @@ nav ul li a:hover::after {
 
 /* contact design */
 
+#contact {
+    background: var(--bg-brown);
+
+}
+
 .contact-left {
     flex-basis: 35%;
 }
@@ -373,7 +382,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #ff004f;
+    color: var(--bg-blue);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -410,10 +419,10 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #0d1d38;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -429,7 +438,7 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #0d1d38;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -442,17 +451,17 @@ form .btn2 {
 /* ----css for small screen /media query----- */
 
 @media(max-width:600px) {
-    /* #header {
-        background-image: url(images/phone-background.png);
-    } */
-
     .header-text {
         margin-top: 50%;
         font-size: 16px;
     }
 
-    .header-text h1 {
+    .header-text h2 {
         font-size: 30px;
+    }
+
+    .header-text>p {
+        font-size: 20px;
     }
 
     nav .fas {
@@ -524,6 +533,10 @@ form .btn2 {
 
     .header-text h2 {
         font-size: 25px;
+    }
+
+    .header-text>p {
+        font-size: 23px;
     }
 
     nav .fas {
