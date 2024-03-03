@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="This is personal website of me. Ramesh, a front end Developer">
+    <title>Ramesh´s Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="shortcut icon" href="images/rameshlogo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4fb2bd7c58.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/rameshlogo.png" alt="this is my logo signature" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myProjects">Projects</a></li>
+                    <li><a href="#stack">Stack</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Hi<span class="wave">👋🏾</span>, I am<span> Ramesh Ghimire. </span></h2>
+                <p>I am student of Front-end Development <br></p>
+                <p>I like to design & develop Websites</p>
+            </div>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-x-twitter"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">My CV <i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus explicabo aut repellendus
+                    sequi dignissimos ipsum dolorem, esse ut exercitationem hic facere amet ex vel quidem in iure
+                    cupiditate earum omnis expedita accusamus totam laborum. Earum quis voluptatem dicta, magni
+                    quibusdam eius voluptate vero optio, cupiditate, odio accusamus quo assumenda nisi.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('expereince')">Experience</p>
+                    <p class="tab-links" onclick="opentab('eductaion')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Developer</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="expereince">
+                    <ul>
+                        <li><span>2021-Current</span><br>Cheffelo...</li>
+                        <li><span>2017-2019</span><br>UI/UX Desing at Google</li>
+                        <li><span>2016-2017</span><br>Internship at Cheffelo</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="eductaion">
+                    <ul>
+                        <li><span>2023</span><br>Frontend Education</li>
+                        <li><span>2014</span><br>Applied science</li>
+                        <li><span>2004</span><br>Bachelor in Media Technology</li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="index page of my first work">
+                    <div class="layer">
+                        <h3>SquareEye! is movies streaming site.</h3>
+                        <div class="icon">
+                            <a href="https://squareeye.netlify.app/" target="_blank">
+                                <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/codeitR/caschool" target="_blank">
+                                <i class="fab fa-github"></i></a>
+                        </div>
+                        <p>We stream lots of movies all day eveyday! Get your pop-corn ready </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="index page of my first work">
+                    <div class="layer">
+                        <h3> Wel come to Community Science Museum website</h3>
+                        <div class="icon">
+                            <a href="https://quiet-stardust-3c2672.netlify.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/codeitR/codeca" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                        <p>The website should be informative and engaging, encouraging viewers to visit the museum. The
+                            website should be responsive and easy to use on various devices
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="index page of my first work">
+                    <div class="layer">
+                        <h3>WE are team of dedicated writers, editors, and tech enthusiasts work</h3>
+                        <div class="icon">
+                            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-codeitR"
+                                target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://dreamandideas.netlify.app/" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                        <p>We like to write about digital dreams & ideas, stunning art of sharing knowledge work with
+                            lasting impression.Access to inside story of web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- service section -->
+
+    <div id="stack">
+        <div class="container">
+            <h1 class="sub-title">My Stack</h1>
+            <div class="stack-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Design</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem numquam magni et illum
+                        velit eligendi accusantium esse! Sunt, exercitationem accusamus!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h1>UI/UX Design</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem numquam magni et illum
+                        velit eligendi accusantium esse! Sunt, exercitationem accusamus!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h1>App Dev</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem numquam magni et illum
+                        velit eligendi accusantium esse! Sunt, exercitationem accusamus!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio container -->
+
+    <!-- contact section  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> ghimire.9@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +4796718633</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                        <a href=""><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">DownLoad CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright 2024 <span>&#169</span>design&developed with <i class="fas fa-heart"></i> by ramesh</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
