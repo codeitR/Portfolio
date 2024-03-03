@@ -150,7 +150,7 @@ nav ul li a:hover::after {
     background: var(--bg-brown);
     padding: 40px 0;
     color: #ababab;
-    height: 70vh;
+    height: 80vh;
 
 }
 
