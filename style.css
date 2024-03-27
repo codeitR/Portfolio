@@ -457,7 +457,7 @@ form .btn2 {
 @media(max-width:375px) {
 
     #header {
-        height: 94vh;
+        height: 100vh;
     }
 
     .header-text {
